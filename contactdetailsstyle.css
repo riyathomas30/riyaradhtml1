@@ -1,0 +1,18 @@
+
+.contactdetails {
+    background-color: #3b3737;
+    width: 30%;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    margin-left: 10px;
+    color:#ffffff;
+}
+.contactdetails a{
+    
+    color: #ffffff;
+}
+    .contactdetails a:hover {
+        color: #2051d8;
+    }
