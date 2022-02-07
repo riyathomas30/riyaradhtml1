@@ -1,6 +1,46 @@
-.introduction {
+.dashboard
+{
+
+	display:flex;
+}
+.sidebar {
 	background-color: #435AD0;
-	display: flex;
+	border-radius: 20px;
+	font-family: "Poppins", Sans-serif;
+	font-size: 18px;
+	font-weight: 900;
+	color: #ffffff;
+	
+	margin: 20px;
+	padding: 20px;
+	line-height: 2;
+	position: fixed;
+
+}
+	.sidebar li {
+		
+		list-style:none;
+		
+	}
+	.sidebar i {
+		padding-right: 15px;
+		font-size: 0.9em
+	}
+	.sidebar a{
+		color: #ffffff;
+		text-decoration: none;
+		
+	}
+
+.sidebar img {
+	width: 180px;
+	height: 180px;
+	border-radius: 60%;
+	padding: 20px 10px 0px 0px;
+}
+.home {
+	background-color: #435AD0;
+	display:flex;
 	margin: auto;
 	width: 50%;
 	border-radius: 20px;
@@ -13,22 +53,15 @@
 	font-weight: 900;
 	color: #ffffff;
 }
-	
-	.introduction h1 {
+
+	.home h1 {
 		color: #ffffff;
 		font-size: 40px;
 		font-weight: 700;
 	}
 
-	.introduction img {
-		
-		width: 180px;
-		height: 180px;
-		border-radius: 60%;
-		padding:20px 10px 0px 0px;
-	}
-	.introduction a {
 	
+	.home a {
 		background-color: #FF5959;
 		color: #ffffff;
 		text-decoration: none;
@@ -37,19 +70,12 @@
 		font-size: 15px;
 		margin: 4px 8px;
 		cursor: pointer;
-		border-radius:40px;
+		border-radius: 40px;
 	}
 
-		.introduction a:hover {
+		.home a:hover {
 			background-color: #4A63E7;
 			color: #ffffff;
-			/*text-decoration: none;
-			padding: 15px;
-			text-align: center;
-			font-size: 15px;
-			margin: 4px 2px;
-			cursor: pointer;
-			border-radius: 40px;*/
 		}
 
 .aboutme {
@@ -74,7 +100,8 @@
 	margin-top: 10px;
 }
 
-.skills {
+
+.qualification,.skills {
 	background-color: #435AD0;
 	display: flex;
 	margin: 50px auto;
@@ -87,42 +114,15 @@
 	font-family: "Poppins", Sans-serif;
 	font-size: 18px;
 	font-weight: 900;
+	color: #ffffff;
 }
 
-.qualification {
-	background-color: #435AD0;
-	display: flex;
-	margin: 50px auto;
-	width: 50%;
-	border-radius: 20px;
-	text-align: left;
-	text-align: justify;
-	padding: 50px;
-	line-height: 1.7;
-	font-family: "Poppins", Sans-serif;
-	font-size: 18px;
-	font-weight: 900;
-}
-
-.experience {
-	background-color: #ddd2d2;
-	display: flex;
-	margin: auto;
-	width: 50%;
-	border-radius: 20px;
-	text-align: left;
-	text-align: justify;
-	padding: 50px;
-	line-height: 1.7;
-	font-family: "Poppins", Sans-serif;
-	font-size: 18px;
-	font-weight: 900;
-}
+ 
 
 strong {
 	font-size: 25px;
 }
-.favourite {
+.favourite, .experience {
 	background-color: #ddd2d2;
 	display: flex;
 	margin: 50px auto;
